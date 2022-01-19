@@ -5,7 +5,7 @@
 
 import logging
 
-from prophet.forecaster import Prophet
+from prophet.python_shim.fbprophet.forecaster import Prophet
 
 logger = logging.getLogger('fbprophet')
 
